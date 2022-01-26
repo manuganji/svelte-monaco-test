@@ -1,0 +1,9 @@
+export type SettingsType = {
+	SESSION_COOKIE_NAME: string;
+	SESSION_COOKIE_DOMAIN: string;
+	SESSION_COOKIE_SECURE: boolean;
+	SESSION_COOKIE_HTTP_ONLY: boolean;
+	SESSION_COOKIE_SAMESITE: boolean;
+	SESSION_COOKIE_EXPIRE: number;
+	SESSION_COOKIE_PATH?: string;
+};
